@@ -7,18 +7,18 @@ export const FeedbackProvider = ({ children }) => {
   const [feedback, setFeedback] = useState([
     {
       id: 1,
-      text: 'This is feedback item 1',
+      text: 'I recently purchased your product off of your website and I am absolutely thrilled with it! This product is well-made, easy to use, and has exceeded all of my expectations. I highly recommend it to anyone looking for a product like this!',
       rating: 10,
     },
     {
       id: 2,
-      text: 'This is feedback item 2',
+      text: 'Ive been using this product since the summer and I am absolutely loving it! It is the perfect addition to my home setup and it has made my life so much easier.',
       rating: 9,
     },
     {
       id: 3,
-      text: 'This is feedback item 3',
-      rating: 7,
+      text: 'Overall, I am happy with this product, but I think it is important to be aware of the drawbacks before you buy it. It is expensive and it is not for everyone.',
+      rating: 6,
     },
   ])
   const [feedbackEdit, setFeedbackEdit] = useState({
