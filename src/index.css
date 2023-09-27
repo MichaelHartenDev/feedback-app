@@ -8,7 +8,7 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  background-color: #6b6e70;
+  background-color: #484b4f;
   color: #fff;
   line-height: 1.6;
 }
@@ -92,7 +92,7 @@ header {
 
 .rating li:hover,
 .num-display {
-  background: #ff6a95;
+  background: #86c240;
   color: #fff;
 }
 
@@ -101,7 +101,7 @@ header {
 }
 
 [type='radio']:checked ~ label {
-  background: #ff6a95;
+  background: #86c240;
   color: #fff;
 }
 
@@ -161,11 +161,11 @@ input:focus {
 }
 
 .btn-primary {
-  background-color: #484b4f;
+  background-color: #222629;
 }
 
 .btn-secondary {
-  background: #ff6a95;
+  background: #86c240;
 }
 
 .btn:hover {
